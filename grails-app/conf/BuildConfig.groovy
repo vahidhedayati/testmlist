@@ -44,6 +44,7 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
+	 mavenRepo "http://repo.grails.org/grails/core" 
     }
 
     dependencies {
@@ -72,7 +73,8 @@ grails.project.dependency.resolution = {
         //compile ":less-asset-pipeline:1.10.0"
         //compile ":coffee-asset-pipeline:1.8.0"
         //compile ":handlebars-asset-pipeline:1.3.0.3"
+	compile ":mailinglist:0.33"
     }
 }
-grails.plugin.location.'mailinglist' = "../mailinglist"
+//grails.plugin.location.'mailinglist' = "../mailinglist"
 
